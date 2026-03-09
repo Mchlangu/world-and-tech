@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "THE WORLD AND ITS TECHNOLOGY",
     description: "Real-time African news on AgriTech • FinTech • HealthTech & MineTech — built in ZA",
-    images: [DEFAULT_OG_IMAGE],       // ← now uses your local wt1.jpg
+    images: [DEFAULT_OG_IMAGE],     
   },
 };
 
