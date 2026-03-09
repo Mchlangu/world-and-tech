@@ -65,8 +65,8 @@ export default async function Home({ searchParams }: Props) {
         <div className="footer-container">
           <div className="social-icons">
             <a href="https://x.com/WorldAndTech" target="_blank" rel="noopener noreferrer">𝕏</a>
-            <a href="#" target="_blank" rel="noopener noreferrer">YouTube</a>
-            <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.youtube.com/@MiningFarmingTech" target="_blank" rel="noopener noreferrer">YouTube</a>
+            <a href="https://www.linkedin.com/in/wsmahlangu" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
           <div className="copyright">
             © {new Date().getFullYear()} Willams. All rights reserved.
