@@ -69,7 +69,7 @@ export default async function Home({ searchParams }: Props) {
             <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
           <div className="copyright">
-            © {new Date().getFullYear()} WillamTwinkles. All rights reserved.
+            © {new Date().getFullYear()} Willams. All rights reserved.
           </div>
         </div>
       </footer>

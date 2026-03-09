@@ -194,7 +194,7 @@ header {
 footer {
   background: linear-gradient(130deg, var(--brand-dark), var(--brand));
   color: #cbd5e1;
-  padding: 1rem;
+  padding: 1rem 1rem;
   text-align: center;
   margin-top: auto;
 }
@@ -212,7 +212,20 @@ footer {
   margin-bottom: 1.5rem;
 }
 
-.copyright { font-size: 0.95rem; opacity: 0.85; }
+footer a {
+  color: #fdfeff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+footer a:hover {
+  color: var(--brand-accent);
+}
+
+.copyright {
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
 
 /* NEWS */
 .news-meta {
