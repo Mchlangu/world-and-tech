@@ -57,7 +57,7 @@ export default async function Home({ searchParams }: Props) {
         </section>
 
         <section id="news" className="news-section">
-          <NewsFeed news={news} />
+          <NewsFeed news={news} isLoading={news.length === 0 && category === 'all'} />
         </section>
       </main>
 

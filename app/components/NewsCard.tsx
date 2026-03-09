@@ -3,9 +3,10 @@ import { NewsArticle } from '../types/NewsArticle';
 
 type Props = {
   article: NewsArticle;
+  priority?: boolean;           //new prop for first cards
 };
 
-export default function NewsCard({ article }: Props) {
+export default function NewsCard({ article, priority = false }: Props) {
   return (
     <article className="card news-card">
       <div className="card-img-wrapper">
@@ -17,6 +18,9 @@ export default function NewsCard({ article }: Props) {
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             style={{ objectFit: 'cover' }}
             quality={75}
+            priority={priority}                   
+            placeholder="blur"                    
+            blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZDVlNWU1Ii8+PC9zdmc+" 
           />
         ) : (
           <div className="card-img placeholder" />
