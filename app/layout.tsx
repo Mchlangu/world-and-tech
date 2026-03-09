@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     siteName: "WorldAndTech",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&h=630&fit=crop",
+        url: '/images/wt1.jpg',
         width: 1200,
         height: 630,
         alt: "THE WORLD AND ITS TECHNOLOGY - African Innovation News",
@@ -42,3 +42,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+

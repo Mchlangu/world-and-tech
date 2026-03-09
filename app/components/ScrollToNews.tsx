@@ -5,7 +5,7 @@ export default function ScrollToNews() {
     const newsSection = document.getElementById('news');
     if (!newsSection) return;
 
-    const offset = 20;
+    const offset = 25;
     const y = newsSection.getBoundingClientRect().top + window.pageYOffset - offset;
     window.scrollTo({ top: y, behavior: 'smooth' });
   };

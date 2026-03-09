@@ -7,8 +7,8 @@ export const CATEGORY_CONFIG = {
   agri: {
     label: "AgriTech",
     title: "AgriTech News | THE WORLD AND ITS TECHNOLOGY",
-    subtitle: "Latest Agriculture & Precision Farming technology from South Africa",
-    query: 'Agriculture AND "South Africa"',
+    subtitle: "Agriculture & Farming technology Africa",
+    query: '(AI Governance) OR (AI bots) OR (ai-driven)',
   },
   fin: {
     label: "FinTech",
