@@ -8,19 +8,19 @@ export const CATEGORY_CONFIG = {
     label: "AgriTech",
     title: "AgriTech News | THE WORLD AND ITS TECHNOLOGY",
     subtitle: "Agriculture & Farming technology Africa",
-    query: '(AI Governance) OR (AI bots) OR (ai-driven)',
+    query: '(Agric OR Agriculture OR Farming OR Farmers OR Farm) AND (Tech OR AI) NOT Bank',
   },
   fin: {
     label: "FinTech",
     title: "FinTech News | THE WORLD AND ITS TECHNOLOGY",
     subtitle: "Mobile banking, fintech and financial technology in Africa",
-    query: '(fintech OR finance OR bank) AND (technology)',
+    query: '(Financial OR Finance, Banks) AND (Tech OR "Artificial Intelligence") NOT mining',
   },
   health: {
     label: "HealthTech",
     title: "HealthTech News | THE WORLD AND ITS TECHNOLOGY",
     subtitle: "AI, healthcare and medical technology innovations from Africa",
-    query: '("health" OR healthcare OR medical) AND (AI OR "artificial intelligence")',
+    query: '"Health Tech" OR "Health AI" OR "AI Health" OR (Technology AND Health)',
   },
 } as const;
 
