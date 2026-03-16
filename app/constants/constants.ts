@@ -14,7 +14,7 @@ export const CATEGORY_CONFIG = {
     label: "FinTech",
     title: "FinTech News | THE WORLD AND ITS TECHNOLOGY",
     subtitle: "Mobile banking, fintech and financial technology in Africa",
-    query: '(Financial OR Finance, Banks) AND (Tech OR "Artificial Intelligence")',
+    query: '(Financial OR Finance, Banks)',
   },
   health: {
     label: "HealthTech",
